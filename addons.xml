@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="repository.blueplayrepo" name="[COLOR lime]Blue[COLOR aquamarine]Play[/COLOR] Repo[/COLOR]" version="13" provider-name="[COLOR lime]Play[/COLOR][COLOR yellow]Play[/COLOR]">
+<addon id="repository.blueplayrepo" name="[COLOR lime]Blue[COLOR aquamarine]Play[/COLOR] Repo[/COLOR]" version="1.03" provider-name="[COLOR lime]Play[/COLOR][COLOR yellow]Play[/COLOR]">
   <requires>
     <import addon="xbmc.addon" version="12.0.0"/>
   </requires>
