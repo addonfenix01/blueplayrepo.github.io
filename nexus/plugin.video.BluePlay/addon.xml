@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.BluePlay" version="1.0.3" name="[B][COLOR white]BLUE[/COLOR][COLOR aquamarine]PLAY[/COLOR][/B]" provider-name="[COLOR white]Team [/COLOR][COLOR white] Blue[/COLOR][COLOR aquamarine]Play[/COLOR]">
+<requires>
+		<import addon="script.module.six" />
+		<import addon="script.module.kodi-six" />
+		<import addon="script.module.requests" optional="true"/>
+		<import addon="script.module.websocket" version="0.50.0"  optional="true"/>
+		<import addon="script.module.youtube.dl" optional="true"/>
+		<import addon="plugin.video.youtube" optional="true" />
+		<import addon="script.module.dateutil" optional="true" />
+		<import addon="script.module.resolveurl" optional="true"/>
+		<import addon="script.module.urlresolver" optional="true"/>
+		<import addon="script.module.cloudscraper" optional="true"/>
+		<import addon="script.module.inputstreamhelper" optional="true"/>
+		<import addon="script.module.slproxy" optional="true"/>
+	</requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+<extension point="xbmc.addon.metadata">
+<summary lang="en">[COLOR white]BLUE[/COLOR][COLOR aquamarine]PLAY[/COLOR] - It is a free video plugin for KODI that aggregates video playback links of various types.
+Bringing pleasure and pleasure for you to watch and enjoy every moment with family and friends.</summary>
+<summary lang="pt">[COLOR white]BLUE[/COLOR][COLOR aquamarine]PLAY[/COLOR] - É um plugin de vídeo gratuito para o KODI que agrega links de reprodução de vídeos de vários tipos.
+Levando o lazer e o prazer para vocês assistirem e curtirem cada momento com a família e amigos.</summary>
+<description lang="en">[COLOR white][B]BLUE[/B][/COLOR][COLOR aquamarine][B]PLAY[/B][/COLOR] - Install or upgrade the add-on without downloading the zip.</description>
+<description lang="pt">[COLOR white][B]BLUE[/B][/COLOR][COLOR aquamarine][B]PLAY[/B][/COLOR] - Instale ou atualize o add-on sem a necessidade de baixar o zip.</description>
+<disclaimer lang="en">The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation. This is a non-profit resource organized solely for educational purposes and protected by the fair use doctrine of the Copyright Act, specifically section 107, which promotes freedom of expression by allowing unlicensed use of copyrighted works.</disclaimer>
+<disclaimer lang="pt">O autor não é de forma alguma afiliado ao Kodi, Team Kodi ou à XBMC Foundation. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais e protegido pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade de expressão, permitindo o uso não licenciado de obras protegidas por direitos autorais.</disclaimer>
+    <platform>all</platform>
+	<assets>
+	<icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+    <screenshot>resources/screenshots/1.jpg</screenshot>
+    <screenshot>resources/screenshots/2.jpg</screenshot>
+    <screenshot>resources/screenshots/3.jpg</screenshot>
+</assets>
+  </extension>
+</addon>
